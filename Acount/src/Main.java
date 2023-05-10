@@ -11,6 +11,10 @@ public class Main {
 //        bank.closeAccount(acc1);
         bank.getAccount("Test3");
         bank.getAccount("Test3");
-        System.out.println(bank.getNumberOfAccounts());
+//      System.out.println(bank.getNumberOfAccounts());
+
+        acc1.deposit(5.0);
+        acc2.deposit(10);
+        System.out.print(bank.getTotalBalance());
     }
 }
